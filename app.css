@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #e5670dcf;
+}
+
+.header {
+    background-color: #e5670dcf;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 100vh;
+}
+
+.box {
+    background-color: #ffffffca;
+    padding: 20px;
+    margin: 10px;
+    width: 60%;
+    border-radius: 10px;
+    text-align: justify;
+    border-radius: 40px;
+}
+
+.footer {
+    background-color: #9d3f04;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+
+.parallax1 {
+    background-image: url(https://site-placarsoft.s3.sa-east-1.amazonaws.com/post/e7/e4/29/close-up-of-athlete-with-artificial-leg--trc-201257442200499587.jpg);
+}
+
+.parallax2 {
+    background-image: url(https://lh4.googleusercontent.com/HNd9U0SLtZ0mI-LvhNmt4WwKw4O9X1ekBe9rYr83TWqVOceCP1ARTCCQh_3xj34mQSZ3fa9S94vcDFMfuzhmndKJ_WKFsHA-gWVtQVVBIMj6mdOIBcNbKg3W8HJv6qO2BFrww1b9fxRIVt_iYY12WA);
+}
+
+.parallax3 {
+    background-image: url(https://static.wixstatic.com/media/8642b6_e3eb548019034a20a2e8408b47d2af00~mv2.jpg/v1/fill/w_740,h_423,fp_0.50_0.50,q_90/8642b6_e3eb548019034a20a2e8408b47d2af00~mv2.webp);
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    font-size: 30px;
+    padding: 25px;
+    border: #9d3f04 solid 5px;
+    border-radius: 20px;
+    background-color: #ff6347;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+button:hover{
+    transition: 1s;
+    background-color: #752f04;
+}
+
+header h1::selection {
+    color: #f49c10;
+    background-color: #9d3f04;
+}
